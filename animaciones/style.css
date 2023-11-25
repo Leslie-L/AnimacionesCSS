@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(88, 88, 223) ;
+    color: white;
+    font-family: arial;
+    height: 100vh;
+    display: flex;
+}
+.texts{
+    margin: auto;
+    text-align: center;
+}
+.title{
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    animation: show 3s forwards;
+    /*
+        https://bennettfeely.com/clippy/
+    */
+    
+}
+.cody{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    /*colocamos referencia y duracion 
+    esto es un shorthand
+    animation: giraCody 1.5s;
+    se puede colocar cualquier orden solo que el primer tiempo sera la duracion y el segundo el delay
+    */
+    /*
+    referencia al keyframe que vamos a llamar
+    */
+    animation-name: grow, giraCody;
+    /*
+    cuanto dura la animacion
+    */
+    animation-duration: 1s, 3s;
+    /*
+        tiempo de retardo o espera para que se ejecute una animacion
+    */
+    animation-delay: 0s, 1s;
+    /*
+    cuantas veces se repite la animacion
+    */
+    animation-iteration-count: 2.5;
+    /*
+    define la direccion de la animacion
+    por defecto 0-100 normal
+    100-0 reverse
+    0-100-0 alternate
+    100-0-100 alternate-reverse
+    */
+    animation-direction: alternate;
+    /*
+    define si los estilos cambian o se mantienen al terminar la animacion
+    por defecto es none
+    forwards es que se queda con el estilo de la animacion
+    backwards comienza con los estilos de la animacion en el 0%
+    both aploca backwards y forwartds
+    */
+    animation-fill-mode: forwards ;
+    /*permite pausar y reaunudar la animacion
+    por defecto es running
+    paused pausa... lol
+    */
+    animation-play-state: paused;
+    /*
+    igual a transition timing function
+    */
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}   
+.cody:hover{
+    animation-play-state: running;
+}
+/*
+keyframes 
+permiten declarar y controlar los pasos intermedios de una animacion
+se le da el nombre que querremos que se colocara en animation
+se puede colocar solo el final y se tomara su declaracion como
+estado inicial
+se pueden colocar tambien porcentajes
+*/
+@keyframes giraCody{
+    /*como inicia equivalente a 0%*/
+    from{
+        
+        opacity: .5;
+        filter: grayscale(0.3);
+        transform: scale(0.3) translateY(-30%) rotate(30deg);
+    }
+    /*como termina equivalente a 100%*/
+
+}
+@keyframes grow{
+    to{
+        transform: scale(1.5);
+    }
+}
+/*
+    las animaciones no necesitan un disparador
+    no es recomendable animar muchos estilos
+*/
+@keyframes show{
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}

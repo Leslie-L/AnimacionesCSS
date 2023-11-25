@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 30px auto;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+}
+.element{
+    background-color: steelblue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: transform 1s;
+}
+/*
+Cordenadas en CSS
+    la x funciona como en matematica
+    pero y- se va hacia arriba
+    y+ se va hacia abajo
+Tranformaciones
+Las transformaciones nos permiten rotar,escalar, segar y trasladar
+no se ejecuten el layout
+
+*/
+.container:hover .element{
+    transform: translate(100%);
+    z-index: -1;
+    /*
+        Traslada un elemento en x y y. Puede usar cualquier valor de medida
+        % es relativo al elemento
+        translateX
+        translateY
+        translate shorthand de x y y. si se pone solo 1 valor lo toma para x 
+        cuando traslate tiene un valor diferente de none se crea un concepto de apilamiento
+     */
+}
+.element2{
+    background-color: steelblue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: transform 1s;
+    transform-origin: top center;
+}
+.container:hover .element2{
+    transform: rotate(360deg);
+   
+    /*
+        rota un elemento
+        Solo permite valores angulares
+         0-360 deg
+         0-400 grad
+         0-6.28319 rad
+         0-1 turn
+
+         transform-origin:50% 50%; es el punto de partida
+         por defecto es 50%
+         se puede usar % o top, bottom, left, raight center
+    */
+}
+.element3{
+    background-color: steelblue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: scale 1s;
+    transform-origin: left;
+}
+.container:hover .element3{
+    transform: scale(2)
+    /*
+        escala un elemento
+        acepta numeros enteros, negativos o decimales
+        scaleX(-1)
+        scaleY(-1)
+        scale(-1)
+    */
+}
+
+.element4{
+    background-color: steelblue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: skew 1s;
+    transform-origin: top;
+}
+.container:hover .element4{
+    transform: skewX(40deg) skewY(60deg);
+    /*
+        deforma un elemento
+        no se deberia usar porque ya no es compatible
+        cib algunos navegadires
+        lo mejor es usar skewX y skewY
+        solo acepta valores angulares
+         0-360 deg
+         0-400 grad
+         0-6.28319 rad
+         0-1 turn
+    */
+}
+.element5{
+    background-color: steelblue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: skew 1s;
+    transform-origin: top;
+}
+.container:hover .element5{
+    transform:  translate(200px) rotate(30deg);
+    /*
+        por el metodo de cascada si se quieren aplicar
+        transformaciones deformaciones a la vez hay que colocarlo en la misma linea
+        hay que tener cuidado en el orden porque modificara el comportamiento de los otros metodos
+
+    */
+}
+/*
+ will change nos permite decirles a los navegadores que una propiedad va a cambiar antes de que pase.
+ permite optimizar recursos pero lo mejor es no utilizarlo
+ que sea el ultimo recurso
+ no hay que abusar de las animaciones
+ si se va a cambiar la capa de layout si es mejor utilizar will-change
+ will-change:width,height;
+ en performance se debe ver si las animaciones funcionan bien
+ tienen que correr a 60fps
+*/
