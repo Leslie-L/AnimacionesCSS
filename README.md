@@ -1,30 +1,5 @@
 # AnimacionesCSS
 Repo que contiene ejemplos de animaciones, transiciones y transformaciones con css
-# Indice
-
-- [Coordenadas en CSS](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-- [Transiciones](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Sintaxis](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Composición de la propiedad](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Ejemplo en código](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-- [Transformaciones](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Translate](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Rotate](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Scale](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Skew](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Combinación de transformaciones](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Will-change](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-- [Animaciones](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Animation-name](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Animation-duration](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Animation-delay](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Animation-iteration-count](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Animation-direction](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Animation-fill-mode](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Animation-play-state](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Animation-timing-function](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-    - [Ejemplo completo](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
-- [Links importantes](https://www.notion.so/Animaciones-en-CSS-1260f10c78fc46f8af5e72535e56d836?pvs=21)
 
 # Coordenadas en CSS
 
