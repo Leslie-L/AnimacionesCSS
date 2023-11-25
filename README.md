@@ -30,7 +30,7 @@ Repo que contiene ejemplos de animaciones, transiciones y transformaciones con c
 
 la x funciona como en matematicas, pero y esta ‘alreves’ de lo convencional
 
-![Coordenadas en CSS](https://cs.wellesley.edu/~cs110/reading/L06/images/coordinates.png){width=300px height=300px}
+![Coordenadas en CSS](https://cs.wellesley.edu/~cs110/reading/L06/images/coordinates.png)
 
 # Transiciones
 
