@@ -30,7 +30,7 @@ Repo que contiene ejemplos de animaciones, transiciones y transformaciones con c
 
 la x funciona como en matematicas, pero y esta ‘alreves’ de lo convencional
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cf516600-b1c6-4308-83b9-afce0d4dac13/825eae3d-32d5-45a0-bf2b-84a536c3af9e/Untitled.png)
+![Untitled]([https://prod-files-secure.s3.us-west-2.amazonaws.com/cf516600-b1c6-4308-83b9-afce0d4dac13/825eae3d-32d5-45a0-bf2b-84a536c3af9e/Untitled.png](https://cs.wellesley.edu/~cs110/reading/L06/images/coordinates.png)
 
 # Transiciones
 
