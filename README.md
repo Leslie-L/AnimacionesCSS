@@ -30,7 +30,7 @@ Repo que contiene ejemplos de animaciones, transiciones y transformaciones con c
 
 la x funciona como en matematicas, pero y esta ‘alreves’ de lo convencional
 
-![Untitled]([https://prod-files-secure.s3.us-west-2.amazonaws.com/cf516600-b1c6-4308-83b9-afce0d4dac13/825eae3d-32d5-45a0-bf2b-84a536c3af9e/Untitled.png](https://cs.wellesley.edu/~cs110/reading/L06/images/coordinates.png)
+![Coordenadas en CSS](https://cs.wellesley.edu/~cs110/reading/L06/images/coordinates.png){width=300px height=300px}
 
 # Transiciones
 
@@ -419,5 +419,6 @@ crear figuras para animarlas con  la propiedad clip-path:
 
 [Clippy — CSS clip-path maker](https://bennettfeely.com/clippy/)
 
-revisar que propiedades son animables
+revisar que propiedades son animables:
+
 [Animatable CSS properties - CSS: Cascading Style Sheets](https://udn.realityripple.com/docs/Web/CSS/CSS_animated_properties)
